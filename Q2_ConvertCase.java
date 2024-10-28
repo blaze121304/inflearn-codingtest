@@ -22,7 +22,8 @@ public class Q2_ConvertCase {
 //                answer += Character.toLowerCase(input1.charAt(i));
 //            }
 //        }
-        StringBuilder answer = new StringBuilder();
+
+        StringBuilder answer = new StringBuilder(); //for each
         for(char ch : input1.toCharArray() ){
             if(Character.isLowerCase(ch)){
                 answer.append(Character.toUpperCase(ch));
