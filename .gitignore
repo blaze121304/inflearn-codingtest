@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### out폴더를 제외 시키기 위한 설정 ###
+../out/
