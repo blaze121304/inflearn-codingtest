@@ -4,7 +4,7 @@ public class Q2_ConvertCase {
     public static void main(String[] args) {
         String sol;
         Scanner in=new Scanner(System.in);
-        String str= in.next();
+        String str= in.nextLine();
         System.out.println("STR: " + str);
 
         sol = solution(str);
