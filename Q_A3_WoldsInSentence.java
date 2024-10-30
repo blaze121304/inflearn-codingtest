@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Q3_WoldsInSentence {
+public class Q_A3_WoldsInSentence {
 
     public static void main(String[] args) {
 

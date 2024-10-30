@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q1_FindString {
+public class Q_A1_FindString {
 
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
@@ -14,7 +14,7 @@ public class Q1_FindString {
         System.out.println("입력받은 문자열: " + input);
         System.out.println("찾을 문자열: " + input2);
 
-        String ex = "Computer Science";
+
         for (int i = 0; i < input.length(); i++) {
 
            if(String.valueOf(input.charAt(i)).toLowerCase().contains(input2.toLowerCase())){

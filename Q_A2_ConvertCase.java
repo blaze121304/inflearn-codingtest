@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q2_ConvertCase {
+public class Q_A2_ConvertCase {
     public static void main(String[] args) {
         String sol;
         Scanner in=new Scanner(System.in);
